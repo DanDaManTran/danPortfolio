@@ -1,0 +1,294 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #0B392B;
+	width: 100%;
+}
+
+/*navigation and links also used some bootstrap to make it style the way I want it*/
+.navbar-inverse{
+	background-color: #155441;
+	border-color: black;
+	border-width: 0.5rem;
+	border-bottom-style: solid;
+	font-size: 3rem;
+	opacity: 0.8;
+}
+
+.shortCuts {
+	color: white;
+}
+
+/*do this in Jquery*/
+.shortCuts:hover { 
+ 	color: #54A88F;
+ 	text-decoration: none;
+}
+
+li{
+	display: inline;
+	padding: 1rem;
+}
+
+
+
+h1, h3{
+	font-family: 'Roboto Slab', serif;
+}
+/***************************************************************************************/
+
+/*back ground picture of the first page*/
+.backFirst{
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.backPic{
+	width: 100%;
+	opacity: 0.6;
+	height: 70rem;
+}
+
+
+/***********************************************/
+
+/*title section with profile picture*/
+.profile{
+	position: absolute;
+	margin-top: -58%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.name{
+	font-weight: bold;
+}
+
+.profilePic{
+	width: 40rem;
+	margin-top: 11rem;
+	opacity: 0.7;
+}
+
+.title{
+	margin-top: 14rem;
+	text-align: center;
+	color: white;
+}
+
+.page-header{
+	width: 45rem;
+	margin: auto;
+	padding: 0;
+	border-bottom-width: 0.5rem;
+	border-bottom-color: #54A88F;
+	margin-bottom: 2rem;
+}
+/********************************************/
+
+/*icon/contact on the first page*/
+.iconFirst{
+	width: 100%;
+	text-align: center;
+	/*padding-top: 10rem;*/
+	color: white;
+	margin-top: 6rem;
+}
+
+i{
+	margin: 2rem;
+	padding: 0;
+}
+/***************************************/
+
+/*education and experiences page*/
+.edEx{
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: 10rem;
+	padding-left: 5rem;
+}
+
+.innerEdEx{
+	text-align: left;
+	width: 100%;
+	padding-left: 5rem;
+}
+
+.profileTwo{
+	position: absolute;
+	margin-top: -58%;
+	width: 100%;
+}
+
+.plusMinus{
+	margin-right: 2rem;
+	background-color: #54A88F;
+	border-color: #54A88F;
+	border-radius: 1rem;
+	width: 3rem;
+}
+
+.edExText{
+	padding-left: 5rem;
+	display: none;
+}
+
+.download{
+	padding: 0;
+	width: 30rem;
+	margin-left: 3rem;
+	background-color: #54A88F;
+	border-color: #54A88F;
+	border-radius: 1rem;
+	margin-top: 4rem;
+	color: white;
+}
+
+/***************************************/
+
+/*portfolio page */
+.portTitle{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 9rem;
+}
+.portfolio{
+	color: white;
+	margin-top: 5rem;
+}
+
+.backPort{
+	width: 33%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.backPort:hover { 
+	opacity: 0.6;
+}
+
+.portPic{
+	width: 100%;
+	height: 30rem;
+}
+
+
+.rowAdd{
+	height: 30rem;
+}
+
+.portIcons{
+	text-align: center;
+	color: #54A88F;
+	font-size: 10rem;
+	width: 100%;
+	margin-top: -25rem;
+	display: none;
+}
+
+.portIconsBlack{
+	text-align: center;
+	color: black;
+	font-size: 10rem;
+	width: 100%;
+	margin-top: -25rem;
+	display: none;
+}
+
+.portLink{
+	color: #54A88F;
+}
+
+.portLinkBlack{
+	color: black;
+}
+
+/***************************************/
+
+/*biography page */
+#pageBio{
+	padding-top: 4rem;
+}
+
+.biography{
+	color: white;
+}
+
+.bioTitle{
+	text-align: center;
+}
+.bioPic{
+     position:absolute;
+     bottom:0;
+     right:0;
+     height: 100%;
+}
+
+.bioBody{
+	width: 57rem;
+	padding-left: 5rem;
+}
+
+.bioText{
+	font-size: 2rem;
+}
+
+/***************************************/
+
+#pageContact{
+	padding-top: 4rem;
+}
+
+.btn{
+	background-color: black;
+	padding: 0;
+	margin: 2rem;
+	width: 50rem;
+	height: 15rem;
+	border-radius: 3rem;
+
+}
+
+.allBtn{
+	text-align: center;
+}
+
+.contactTitle{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	font-size: 9rem;
+}
+
+.emailBtn{
+	position: absolute;
+	margin-top: -14rem;
+	margin-left: 18rem;
+	font-size: 7rem;
+	font-weight: bold;
+	color: black;
+}
+
+.linkedin{
+	position: absolute;
+	margin-top: -14rem;
+	margin-left: 14rem;
+	font-size: 6rem;
+	font-weight: bold;
+	color: black;
+
+}
+
+.in{
+	background-color: #0077B5;
+	border-radius: 2rem;
+	padding: 0 1.5rem;
+	color: white;
+}

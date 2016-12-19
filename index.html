@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DanTran</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+<!-- 0B392B  155441  3A8D74  54A88F color scheme-->
+<!-- Navbar gotta fix it somemore -->
+	<nav class="navbar-inverse navbar-fixed-top">
+		<div class="container container-fluid">
+		    <ul class="navbar-right">
+		    	<li><a class="shortCuts" href="#pageOne">DanTran</a></li>
+
+		    	<li><a class="shortCuts" href="#pageBio">Bio</a></li> 
+
+		    	<li><a class="shortCuts" href="#pageEdEx">History</a></li>
+
+		    	<li><a class="shortCuts" href="#pagePort">Portfolio</a></li> 
+
+				<li><a class="shortCuts" href="#pageContact">Connect</a></li> 
+		    </ul>
+		</div>
+	</nav>
+
+	<!-- first page with the sunset background, titles, and contact links -->
+	<div class="backFirst container container-fluid" id="pageOne">
+		<img class="backPic" src="assets/images/sunSet.jpg"/>
+		
+		<div class="profile">
+			<div class="row">
+				<div class="col-sm-3">
+					<img class="profilePic img-rounded" src="assets/images/pose.png">
+				</div>
+
+				<div class="col-sm-3">
+					<!-- empty space so there is a space between the picture and my title -->
+				</div>
+
+				<div class="title col-sm-6">
+					<!-- page-header give the border bottom and only needed on 2 of the sections -->
+					<div class="page-header">
+						<h1 class="name">Dan Tran</h1>
+						<h4>Inquisitive, Adventurous, and Traveler</h4>
+					</div>
+
+					<div class="page-header">
+						<h1>Full-Stack Web Developer</h1>
+					</div>
+						<h4>You miss 100% of the shots you never take</h4>
+						<h4>- Wayne Gretzky</h4>
+
+				</div>
+			</div>
+			<!-- ~footer of the first page. Just a quick contact infomation -->
+			<div class="iconFirst">
+				<h1>Contact Me</h1>
+				<h2><i class="fa fa-mobile fa-1x" aria-hidden="true"> (281) 753-7064</i><i class="fa fa-envelope-o fa-1x" aria-hidden="true"> DanD.Tran@yahoo.com</i></h2>
+			</div>
+		</div>
+	</div>
+
+<!-- bio page about me -->
+	<div class="container container-fluid backFirst" id="pageBio">
+		<div class="biography">	
+			<div class="bioBody">
+				<h1 class="bioTitle">WHO AM I</h1>
+				<p class="bioText">My name is Dan Tran, some people like to say DanTran since it just rolls of their tongue. I am based in Houston working as a Full Web Developer. I started working in the oil and gas industry, and at the same time I obtained a dual degree in Math (I enjoy logics) and Chemistry (Help me move up in the company). After 9 years I was laid off, so I decided to pursue something I truely enjoy which is logics. That is when I discovered coding world. Right now I am looking for a position as a Full Web Developer.</p><br>
+				<p class="bioText">I believe I work well with others and solo. I built a strong leadership skill by managing the Bioassay Lab for 8 years, so I know how to be a great leader. At the same time I do great following orders from my team leader. I am also independent so I can work solo pretty well.</p>
+			</div>
+			<div class="container">
+				<img class="bioPic" src="assets/images/dan.png">
+			</div>
+		</div>
+	</div>
+
+<!-- education and experiences page -->
+	<div class="backFirst container container-fluid" id="pageEdEx">
+		<img class="backPic" src="assets/images/education.jpg">
+		<div class="profileTwo">
+			<!-- splitting the education and experiences into 2 different column education have a smaller space since there isn't much information there -->
+			<div class="row edEx">
+				<!-- education column -->
+				<div class="education col-sm-5">
+					<h1>Education</h1>
+
+					<div class="innerEdEx container">
+						<div class="row">
+							<h3><button class="plusMinus" data-value="0">+</button>Full-Stack Web Developer</h3>
+							<p class="edExText" data-showHide="0">2016-2017 - The Coding Boot Camp at UT Austin</p>
+						</div>
+
+						<div class="row">
+							<h3><button class="plusMinus" data-value="2">+</button>Bachelor of Arts Chemistry</h3>
+							<p class="edExText" data-showHide="2">2012-2014 - University of Houston</p>
+						</div>
+
+						<div class="row">
+							<h3><button class="plusMinus" data-value="4">+</button>Bachelor of Science Math</h3>
+							<p class="edExText" data-showHide="4">2011-2013 - University of Houston</p>
+						</div>
+
+						<div>
+							<a href="danResume.pdf" download="danResume.pdf"> <button class="download"><i class="fa fa-file fa-2x" aria-hidden="true">Download Resume</i></button></a>
+						</div>
+					</div>
+				</div>
+				<!-- experiences column -->
+				<div class="experiences col-sm-7">
+					<h1>Experiences</h1>
+
+					<div class="innerEdEx container">
+						<div>
+							<h3><button class="plusMinus" data-value="6">+</button>PROACT Field Service Engineer</h3>
+							<p class="edExText" data-showHide="6">M-I SWACO January 2015 - November 2015. This is a 5 year program to learn all aspect of the company and excercise the knowledge by doing field services world wide. Maintain and help manage mud plants, warehouses and rigs. Prepared SBM system and WBM System, managed mud transportation trucks, perform mud checks, load and unload products from transportation truck.</p>
+						</div>
+
+						<div>
+							<h3><button class="plusMinus" data-value="8">+</button>Environmental Scientist</h3>
+							<p class="edExText" data-showHide="8">M-I SWACO January 2013 - January 2015. Managed the bioassay laboratory. Evaluated data and generated lab reports to produce over 500 tests a year. Updating LIMs system with all new products and chemical entering the bioassay lab. Led JSA (Job Safety Analysis) on different procedures in the lab. Procured lab supplies, chemicals, and equipment.</p>
+						</div>
+
+						<div>
+							<h3><button class="plusMinus" data-value="10">+</button>Lab Tech Senior</h3>
+							<p class="edExText" data-showHide="10">M-I SWACO June 2006 – January 2013. Lead a team of lab tech to maintain the bioassay laboratory. Maintained organism cultures such as Mysidopsis bahia, Leptocheirus plumulosus, and Pimephales promelas used for toxicity testing Evaluated and performing test parameters Performed acute chemical toxicology tests using EPA methods and generated lap report </p>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="backFirst container container-fluid" id="pagePort">
+		<div class="portfolio">	
+			<h1 class="portTitle">Portfolio</h1>
+
+			<div class="row rowAdd">
+				<!-- <div class="col-sm-4"> -->
+					<div class="backPort container container-fluid" data-value="port1">
+						<img class="portPic" src="assets/images/hangMan.png"/>
+
+						<div class="portIconsBlack" id="port1">
+							<h2>HangMan</h2>
+
+							<p>
+								<a target="_blank" href="https://github.com/DanDaManTran/week-3-moderategame" class="portLinkBlack"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+								<a target="_blank" href="https://hangdan.herokuapp.com/" class="portLinkBlack"><i class="fa fa-play-circle fa-1x" aria-hidden="true"></i></a>
+							</p>
+						</div>
+
+					</div>
+				<!-- </div> -->
+				<!-- <div class="col-sm-4"> -->
+					<div class="backPort container container-fluid" data-value="port2">
+						<img class="portPic" src="assets/images/gem.jpg"/>
+
+						<div class="portIcons" id="port2">
+							<h2>Gem Game</h2>
+							
+							<p>
+								<a target="_blank" href="https://github.com/DanDaManTran/week-4-gemgame" class="portLink"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+								<a target="_blank" href="https://gemgamedan.herokuapp.com/" class="portLink"><i class="fa fa-play-circle fa-1x" aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</div>
+<!-- 				</div>
+				<div class="col-sm-4"> -->
+					<div class="backPort container container-fluid" data-value="port3">
+						<img class="portPic" src="assets/images/rpg.jpg"/>
+
+						<div class="portIcons" id="port3">
+							<h2>Battle for Middle Earth</h2>
+							
+							<p>
+								<a target="_blank" href="https://github.com/DanDaManTran/week-4-rpggame" class="portLink"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+								<a target="_blank" href="https://rpgdan.herokuapp.com/" class="portLink"><i class="fa fa-play-circle fa-1x" aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</div>
+				<!-- </div> -->
+			</div>
+
+			<!-- second row of my portfolio -->
+			<div class="row rowAdd">
+				<!-- <div class="col-sm-4"> -->
+					<div class="backPort container container-fluid" data-value="port4">
+						<img class="portPic" src="assets/images/trivia.jpg"/>
+
+						<div class="portIcons" id="port4">
+							<h2>Game of Trivia</h2>
+
+							<p>
+								<a target="_blank" href="https://github.com/DanDaManTran/triviaGame" class="portLink"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+								<a target="_blank" href="https://triviadan.herokuapp.com/" class="portLink"><i class="fa fa-play-circle fa-1x" aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</div>
+				<!-- </div>
+				<div class="col-sm-4"> -->
+					<div class="backPort container container-fluid" data-value="port5">
+						<img class="portPic" src="assets/images/rps.jpg"/>
+
+						<div class="portIconsBlack" id="port5">
+							<h2>2 Players Rock Paper Scissors</h2>
+							
+							<p>
+								<a target="_blank" href="https://github.com/DanDaManTran/RPS-Multiplayer" class="portLinkBlack"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+								<a target="_blank" href="https://rpsdan.herokuapp.com/" class="portLinkBlack"><i class="fa fa-play-circle fa-1x" aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</div>
+
+					<div class="backPort container container-fluid" data-value="port6">
+						<img class="portPic" src="assets/images/letsJet.jpg"/>
+
+						<div class="portIcons" id="port6">
+							<h2>letsJet</h2>
+							
+							<p>
+								<a target="_blank" href="https://github.com/rxtATX/letsjet" class="portLink"><i class="fa fa-github fa-1x" aria-hidden="true"></i></a>
+								<a target="_blank" href="https://quiet-spire-51157.herokuapp.com/#" class="portLink"><i class="fa fa-play-circle fa-1x" aria-hidden="true"></i></a>
+							</p>
+						</div>
+					</div>
+				<!-- </div> -->
+				
+			</div>
+		</div>
+	<!-- </div> -->
+
+	<div class="container container-fluid backFirst" id="pageContact">
+		<h1 class="contactTitle">Connect With Me</h1>
+		<div class="allBtn">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="backFirst">
+						<a target="_blank" href="DanD.Tran@yahoo.com"><img class="btn" src="assets/images/email.jpg"></a>
+						<h1 class="emailBtn">Email</h1>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div>
+						<a target="_blank" href="https://github.com/DanDaManTran"><img class="btn" src="assets/images/github.jpg"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="col-sm-6">
+					<div>
+						<a target="_blank" href="https://www.linkedin.com/in/dan-tran-8224566a"><img class="btn" src="assets/images/linkedin.jpg"></a>
+					</div>
+				</div>
+
+				<div class="col-sm-6">
+					<div>
+						<a target="_blank" href="https://twitter.com/DanDaManTran"><img class="btn" src="assets/images/twitter.jpg"></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div>
+						<a target="_blank" href="https://www.pinterest.com/DanDaManTran/"><img class="btn" src="assets/images/pinterest.jpg"></a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div>
+						<a target="_blank" href="https://www.facebook.com/dan.tran.3152"><img class="btn" src="assets/images/facebook.jpg"></a>
+					</div>
+				</div>
+			</div>
+
+	
+		<div>
+	</div>
+
+</body>
+</html>
