@@ -40,6 +40,9 @@ $("document").ready(function(){
 		$("#"+portIndex).hide();
 	});
 
+	$("#email").on("click", function(){
+		window.open('mailto:DanD.Tran@yahoo.com')
+	});
 
 
 
