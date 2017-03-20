@@ -57,7 +57,7 @@ h1, h3{
 /*title section with profile picture*/
 .profile{
 	position: absolute;
-	/*margin-top: -70rem;*/
+	margin-top: -70rem;
 	margin-left: 10%;
 	width: 80%;
 }
