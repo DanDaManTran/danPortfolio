@@ -20,7 +20,7 @@ body{
 }
 
 /*do this in Jquery*/
-.shortCuts:hover { 
+.shortCuts:hover {
  	color: #54A88F;
  	text-decoration: none;
 }
@@ -57,7 +57,7 @@ h1, h3{
 /*title section with profile picture*/
 .profile{
 	position: absolute;
-	margin-top: -58%;
+	margin-top: -70rem;
 	margin-left: 10%;
 	width: 80%;
 }
@@ -120,7 +120,7 @@ i{
 
 .profileTwo{
 	position: absolute;
-	margin-top: -58%;
+	margin-top: -76rem;
 	width: 100%;
 }
 
@@ -170,7 +170,7 @@ i{
 	float: left;
 }
 
-.backPort:hover { 
+.backPort:hover {
 	opacity: 0.6;
 }
 
