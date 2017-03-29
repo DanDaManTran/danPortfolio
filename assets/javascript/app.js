@@ -14,15 +14,13 @@ $("document").ready(function(){
 	});
 
 	//Hide and show text on the edEx page
-	$(document).on("click","button",function(){
+	$(document).on("click",".plusMinus",function(){
 	  	var num = $(this).data('value');
-
+			$(this).toggleClass("fa-chevron-down fa-chevron-up");
 	  	if(num%2==0){
-	  		$(this).text("-");
 	  		$(this).data('value',(num+1));
 	  		$('[data-showHide='+num+']').show();
 	  	} else{
-	  		$(this).text("+");
 	  		$(this).data('value',(num-1));
 	  		$('[data-showHide='+(num-1)+']').hide();
 	  	}
